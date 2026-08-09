@@ -44,6 +44,11 @@ body[data-theme="dark"] .navbar {
     background: #1a1a1a;
 }
 
+/* About text in dark mode */
+body[data-theme="dark"] .about-copy p {
+    color: #ffffff;
+}
+
 
 /* Navigation Links */
 body[data-theme="dark"] .nav-links a {
@@ -271,8 +276,8 @@ border-color: var(--accent);
 
 .btn-secondary {
 background: transparent;
-color: var(--white);
-border-color: var(--white);
+color: #121212;
+border-color: #121212;
 }
 
 .btn-secondary:hover {
