@@ -44,11 +44,6 @@ body[data-theme="dark"] .navbar {
     background: #1a1a1a;
 }
 
-/* About text in dark mode */
-body[data-theme="dark"] .about-copy p {
-    color: #ffffff;
-}
-
 
 /* Navigation Links */
 body[data-theme="dark"] .nav-links a {
@@ -143,7 +138,7 @@ body[data-theme="dark"] .tag {
 
 /* Contact */
 body[data-theme="dark"] .contact-section {
-    background: #181818;
+    background: #121212;
 }
 
 
@@ -164,10 +159,6 @@ body[data-theme="dark"] textarea::placeholder {
 
 body[data-theme="dark"] label {
     color: #ffffff;
-}
-
-body[data-theme="dark"] .nav-links {
-    background: #1a1a1a;
 }
 
 
@@ -276,8 +267,12 @@ border-color: var(--accent);
 
 .btn-secondary {
 background: transparent;
-color: #121212;
-border-color: #121212;
+color: #F18F01;
+border-color: #F18F01;
+}
+
+body[data-theme="dark"] .about-copy p {
+    color: #ffffff;
 }
 
 .btn-secondary:hover {
